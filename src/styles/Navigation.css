@@ -1,0 +1,162 @@
+nav {
+  line-height: 8vh;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  flex-grow: 1;
+  padding: 2vh 0 0 0;
+  list-style: none;
+  text-align: right;
+}
+
+a.navtext {
+  display: inline-block;
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 18px;
+  transition-duration: 0.1s;
+}
+a.active.active {
+  color: black;
+  border-bottom: 1px black solid;
+}
+
+a:visited {
+  color: rgb(100, 100, 100);
+}
+.navtext:hover {
+  border-bottom: solid rgb(100, 100, 100) 2px;
+  transform: translateY(-4px);
+}
+
+li.logo {
+  flex-grow: 5;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+a.navlogo {
+  flex-grow: 1;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  min-width: 110px;
+}
+
+div.empty-space {
+  flex-grow: 4;
+}
+
+li.logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  min-width: 110px;
+}
+a.navlogo:hover {
+  border-bottom: 0px black;
+}
+a.navlogo.active {
+  border-bottom: none;
+}
+
+button.navtext {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(100, 100, 100);
+  text-transform: uppercase;
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition-duration: 0.1s;
+}
+
+.mobile-nav {
+  display: none !important;
+}
+.navlogo-mobile {
+  display: none;
+}
+
+.mobile-nav-hamburger {
+  display: none;
+}
+
+a.navlogo-mobile.active {
+  border-bottom: none;
+}
+
+@media (orientation: portrait) {
+  .nav-pc {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inline-block !important;
+  }
+
+  .nav-mobile {
+    margin-top: 10px;
+  }
+
+  .navlogo-mobile {
+    display: block;
+    width: 25vh;
+    z-index: 5;
+  }
+
+  .navlogo-mobile img {
+    width: 100%;
+    display: block;
+  }
+
+  .mobile-nav-hamburger {
+    display: block;
+    position: fixed;
+    font-size: 50px;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+  }
+  .show {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 4;
+    background-color: rgba(255, 255, 255, 0.829);
+  }
+
+  .show ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 0;
+  }
+  .show > ul > li {
+    display: block;
+    text-align: left;
+  }
+
+  button.navtext {
+    background-color: rgba(255, 255, 255, 0);
+    border: none !important;
+  }
+}

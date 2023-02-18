@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+body {
+  overflow-x: hidden;
+}

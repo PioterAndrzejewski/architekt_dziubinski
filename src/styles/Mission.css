@@ -1,0 +1,169 @@
+.main-image-container {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  background-image: url("../images/mission/misja1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0.65);
+}
+
+.main-image {
+  width: 100%;
+  position: sticky;
+  z-index: -1;
+}
+
+.mission-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.mission-circles {
+  padding: 15px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.mission-circle {
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+  border: solid 1px rgb(110, 110, 110);
+  border-radius: 20px;
+  background-color: rgb(231, 231, 231);
+}
+
+.mission-circle:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.mission-circle img {
+  width: 100%;
+  padding: 0px 60px;
+}
+
+.mission-circle-title {
+  padding: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mission-circle-text {
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.mission-slogan {
+  font-family: "Darker Grotesque", "sans-serif";
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mission-points {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-justify: inter-word;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(110, 110, 110);
+}
+
+.mission-points li {
+  text-align: left;
+  font-size: 13px;
+  list-style-type: none;
+  letter-spacing: 1px;
+}
+
+.mission-points svg {
+  font-size: 8px;
+  margin-right: 20px;
+  color: rgb(110, 110, 110);
+}
+
+.mission-architect {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0 0 0;
+}
+
+.mission-architect-image {
+  width: 60%;
+}
+
+.mission-architect-description {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-architect-main {
+  font-family: "Darker Grotesque", "sans-serif";
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.mission-architect-text {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (orientation: portrait) {
+  .mission-circles {
+    flex-direction: column;
+    margin: 30px;
+  }
+  .mission-circle {
+    margin: 10px;
+  }
+  .mission-circle-text {
+    font-size: 16px;
+  }
+
+  .mission-slogan {
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 22px;
+    margin: 10px;
+  }
+
+  .mission-points {
+    display: block;
+    font-size: 14px;
+    margin: 30px;
+  }
+
+  .mission-points li {
+    text-align: justify;
+    text-justify: kashida;
+    font-size: 13px;
+    list-style-type: none;
+    letter-spacing: 1px;
+  }
+
+  .mission-architect {
+    flex-direction: column;
+    padding: 30px 0 0 0;
+  }
+
+  .mission-architect-image {
+    width: 100vw;
+  }
+}

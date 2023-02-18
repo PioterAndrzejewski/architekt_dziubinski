@@ -1,0 +1,46 @@
+.project-page-image-main {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.project-page-container {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.project-page-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-page-name {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+}
+.project-page-name strong {
+  border-bottom: black solid 1px;
+}
+
+.project-page-description {
+  margin: 15px 0 15px 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (orientation: portrait) {
+  .project-page-name {
+    margin: 20px 20px 20px 20px;
+  }
+
+  .project-page-description {
+    margin: 20px 20px 20px 20px;
+  }
+}

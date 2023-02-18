@@ -1,0 +1,16 @@
+.projects-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (orientation: portrait) {
+  .projects-container {
+    max-width: 100vw;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+}

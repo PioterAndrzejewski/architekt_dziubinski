@@ -1,0 +1,36 @@
+div.footer {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(51, 51, 51);
+}
+
+div.footerCreator {
+  padding: 0 0 1vh 0;
+  text-align: center;
+  font-size: 9.5px;
+  color: rgb(51, 51, 51);
+}
+
+div span {
+  font-size: 11px;
+  color: rgba(151, 36, 36, 0.616);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (orientation: portrait) {
+  div.footer {
+    font-size: 8px;
+  }
+  div.footerCreator {
+    font-size: 7px;
+  }
+  div span {
+    font-size: 9px;
+  }
+}
