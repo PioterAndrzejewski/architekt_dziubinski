@@ -2,8 +2,9 @@
 <p align="center">
 
 
-  
-  ![image](https://user-images.githubusercontent.com/109315248/219867556-90004a23-8153-4fe3-af91-dd64bb9edb97.png)
+![image](https://user-images.githubusercontent.com/109315248/219867643-67ff0840-d141-4bd1-a033-6afbbb11d54b.png)
+
+
 
 </p>
 
@@ -29,10 +30,10 @@ After cloning the repository and installing dependencies run the app using npm s
 - react,
 
 ## About The Project
-![image](https://user-images.githubusercontent.com/109315248/219867041-f5dfd874-af65-4336-bd84-213ce9ecf3a1.png)
 
-Static portfolio website created for architect. 
+![image](https://user-images.githubusercontent.com/109315248/219867690-6a66931d-24f3-44f4-befb-5c02cee71866.png)
 
+Static portfolio website created for architect Radosław Dziubiński. 
 
  ## Project status
  
